@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home - JAVASCRIPT INTRO</title>
+        <link href="javascript_intro_stylesheet.css" rel="stylesheet">
+        <script src="javascript_intro.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="container-1">
+                <div class="box-1">
+                <h1>Hello! Welcome to my website!</h1>
+                </div>
+                </div>
+        </nav>
+        <header>
+            <div class="container-1">
+                <div class="box-1">
+                <h2>It's nice to see you here!</h2>
+                </div>
+                </div>
+        </header>
+        <main>
+            <div class="container-1">
+                <div class="box-1">
+                <h2>About me</h2>
+                <p>My name is Jessica, I'm currently a student studying at Humber College. The program I am in is graphic design. It's very nice to meet you!</p>
+                <h3>Some hobbies or things I enjoy doing</h3>
+                <ul>
+                    <li>Video games</li>
+                    <li>Drawing</li>
+                    <li>listening to music</li>
+                    <li>Watch cartoons and anime</li>
+                    <li>Spend time with friends</li>
+                    <li>Come up with ideas for stuff</li>
+                    <li>Singing</li>
+                </ul>
+                <p>That's pretty much it. Thank you for visiting my website, you can view and interact with the few features here! </p>
+                </div>
+                <div class="box-2">
+                    <img src="Fishypizza.jpg" id="image" onmouseover="img1()" onmouseout="img2()" alt="image unavailable">
+                </div>
+                <div class="box-3">
+                    <h2>Type in your name here!</h2>
+             <input type="text" id="inputName" placeholder="Enter Name">
+             <button onclick="greeting()" id="enter">Enter</button>
+             <p>Just type whatever you like here, when you press the enter button on the right of the input area, whatever you inputed will show up with a greetings.</p>
+
+                </div>
+                </div>
+        </main>
+        <footer>
+            <div class="container-1">
+                <div class="box-1">
+                    <form name="number">
+                        <h3 id="header">Random Number Generator!</h3>
+                        <p>Click the generate button, and it will generate a number!</p>
+                        <input type="button" value="Generate" id="numberbutton" onclick="Random();"/>
+                        <input type="text" id="number" name="number" />
+                    </form>
+                </div>
+                </div>
+        </footer>
+    </body>
+</html>

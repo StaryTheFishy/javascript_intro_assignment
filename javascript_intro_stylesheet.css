@@ -1,0 +1,101 @@
+body {
+    background-color: aquamarine;
+    font-family: TitilliumWeb-Regular;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+ background-image: linear-gradient(to left, purple, magenta, pink);
+ font-size: 40px;
+ text-align: center;
+}
+
+header {
+    text-align: center;
+background-image: linear-gradient(to right, red, orange, yellow)
+}
+
+main {
+color: black;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.container-1 div {
+    border: 3px solid; 
+    border-color: black;
+ padding: 10px;
+ border-radius: 2px;
+ }
+
+ .box-1,
+ .box-3 {
+     flex: 1;
+ }
+
+ .box-2 {
+    flex: 1;
+    background-color: white;
+ }
+
+footer {
+background-image: linear-gradient(to right, blue, aqua, rgb(0, 255, 89))
+}
+
+button {
+    margin: auto;
+    border: 2px solid white;
+    background-color: lightgreen;
+    font-family: TitilliumWeb-Regular;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    display:inline-block;
+}
+
+button:hover {
+    background-color: forestgreen;
+
+}
+
+form {
+    padding-bottom: 40px;
+}
+
+#numberbutton {
+    margin: auto;
+    border: 2px solid white;
+    background-color: lightgreen;
+    font-family: TitilliumWeb-Regular;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    display:inline-block;
+}
+
+#numberbutton:hover {
+    background-color: forestgreen;
+}
+
+#number {
+ padding: 10px;
+ border: 2px solid white;
+ background-color: black;
+ color: white;
+ border-radius: 5px;
+ display: inline-block;
+}
+
+#inputName {
+    padding: 10px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
